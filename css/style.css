@@ -24,6 +24,8 @@ header .header ul {
 	float: right;
 	height: 80px;
 	align-items: center;
+	visibility: visible;
+	opacity: 1;
 }
 
 header .header ul li {
@@ -67,7 +69,27 @@ header .header ul li a:hover {
 	margin-top: -10px;
 }
 
+.container .content .alert h2 a {
+	color: #62A6FF;
+	font-style: italic;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+.container .content .alert h2 a:hover {
+	text-decoration: underline;
+}
+
 .container .content .alert h2.fin {
 	margin-bottom: 10px;
 	margin-top: -15px;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+	header .header ul {
+		visibility: hidden;
+		opacity: 0;
+		display: none;
+	}
 }
