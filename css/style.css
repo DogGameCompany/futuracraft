@@ -1,5 +1,8 @@
 /* bleu clair: #62A6FF */
 /* bleu fonçé: #1834A8 */
+/* bleu windows: #0078D7 */
+/* gris apple: #636363 */
+/* jaune linux: #F09F23 */
 
 /* Toute la page */
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
@@ -110,6 +113,64 @@ header .header ul li a:hover {
 
 .container .content .alert h2.fin a:hover {
 	text-decoration: underline;
+}
+
+.container .content .content-dl .content-btn-dl {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.container .content .content-dl h2.phrase-dl {
+	margin: 20px;
+}
+
+.container .content .content-dl h2.phrase-dl span {
+	color: #1834A8;
+}
+
+.container .content .content-dl .content-btn-dl a.btn-dl-win {
+	color: #fff;
+	text-decoration: none;
+	background: #0078D7;
+	font-size: 30px;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 50px;
+	transition: 0.2s;
+}
+
+.container .content .content-dl .content-btn-dl a.btn-dl-apple {
+	color: #fff;
+	text-decoration: none;
+	background: #636363;
+	font-size: 30px;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 50px;
+	transition: 0.2s;
+}
+
+.container .content .content-dl .content-btn-dl a.btn-dl-lin {
+	color: #fff;
+	text-decoration: none;
+	background: #F09F23;
+	font-size: 30px;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 50px;
+	transition: 0.2s;
+}
+
+.container .content .content-dl .content-btn-dl a.btn-dl-win:hover {
+	background: #1834A8;
+}
+
+.container .content .content-dl .content-btn-dl a.btn-dl-apple:hover {
+	background: #1834A8;
+}
+
+.container .content .content-dl .content-btn-dl a.btn-dl-lin:hover {
+	background: #1834A8;
 }
 
 /* Responsive */
